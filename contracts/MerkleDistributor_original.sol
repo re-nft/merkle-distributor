@@ -44,4 +44,12 @@ contract MerkleDistributor is IMerkleDistributor {
 
         emit Claimed(index, account, amount);
     }
+
+    function burnAddress() external view override returns (address) {
+        return address(0);
+    }
+
+    function rewardsAddress() external view override returns (address) {
+        return address(0);
+    }
 }

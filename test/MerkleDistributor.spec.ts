@@ -174,6 +174,7 @@ describe('MerkleDistributor', () => {
         )
       })
     })
+
     describe('larger tree', () => {
       let distributor: Contract
       let tree: BalanceTree
